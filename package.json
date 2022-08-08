@@ -1,0 +1,21 @@
+{
+  "name": "jestplay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.0",
+    "jest-html-reporters": "^3.0.9",
+    "jest-playwright-preset": "^1.7.0",
+    "playwright": "^1.22.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.22.2"
+  }
+}
