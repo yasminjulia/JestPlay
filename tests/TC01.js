@@ -24,15 +24,13 @@ describe('Post', () => {
         expect(html).toMatch('Your Feed')
         })
 
-
-/*
         await page.fill('input[type = "email"]', 'alanvoigt@yahoo.com.br')
 		    await page.press('input[type = "email"]', 'Tab')
 		    await page.type('input[type = "password"]', 'test123')
         await Promise.all([
           page.waitForNavigation(), 
           await page.click('for >> "Sign in"') 
-        ]);*/
+        ]);
     })
 	afterAll(async () => {
 		await browser.close()

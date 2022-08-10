@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^28.1.0",
-    "jest-html-reporters": "^3.0.9",
+    "jest-html-reporters": "^3.0.10",
     "jest-playwright-preset": "^1.7.0",
     "playwright": "^1.22.2"
   },
